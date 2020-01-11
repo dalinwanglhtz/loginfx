@@ -22,7 +22,7 @@ public class MainController {
 	@FXML
 	private TextField txtPassword;
 	
-	@FXML
+
 	public void Login(ActionEvent event) throws Exception {
 		if(txtUserName.getText().equals("user") & txtPassword.getText().equals("pass")) {
 			lblStatus.setText("Login Success!");
